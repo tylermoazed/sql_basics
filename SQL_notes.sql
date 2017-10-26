@@ -26,3 +26,8 @@ SELECT id, account_id, total_amt_usd
 FROM orders
 ORDER BY total_amt_usd DESC
 LIMIT 5;
+
+SELECT id, account_id, total
+FROM orders
+ORDER BY total
+LIMIT 20;
